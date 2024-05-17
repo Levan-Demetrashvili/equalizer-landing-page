@@ -1,0 +1,32 @@
+.image-container {
+  position: relative;
+}
+
+.image-container img.equilibrium {
+  position: relative;
+  width: 100%;
+  border-radius: 8px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.image-container img.preview {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  opacity: 0;
+}
+
+.image-container:hover {
+  border-radius: 8px;
+  background-color: #00fff8;
+}
+
+.image-container:hover img.preview {
+  opacity: 1;
+}
+
+.image-container:hover img.equilibrium {
+  opacity: 0.5;
+}

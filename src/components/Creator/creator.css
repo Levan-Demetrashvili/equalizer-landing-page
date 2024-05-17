@@ -1,0 +1,24 @@
+.creator-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.creator-container img {
+  width: 33px;
+}
+
+.creator-container p {
+  font-weight: 400;
+  color: #8bacd9;
+}
+
+.author {
+  color: #fff;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.author:hover {
+  color: #00fff8;
+}

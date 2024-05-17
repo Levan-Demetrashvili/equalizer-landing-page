@@ -1,0 +1,21 @@
+.currency-container {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.currency-container div {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.currency {
+  font-weight: 600;
+  color: #00fff8;
+}
+
+.days-left {
+  font-weight: 400;
+  color: #8bacd9;
+}
